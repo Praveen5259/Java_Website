@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interface</title>
+    <style>
+        body {
+  font-family: Arial;
+  margin: 0;
+}
+.content {
+  padding:15px;
+  }
+.content p{
+    font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .header {
+    padding: 10px;
+  text-align: center;
+  background-color:lightslategrey;
+  color: rgba(223, 209, 209, 0.947);
+  font-size: 25px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:lightslategrey;
+    color: rgba(223, 209, 209, 0.947);
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Interface</h1>
+        <p>Learn and Explore Java Programming with Praveen Basera</p>
+      </div>
+    <div class="content">
+        <h1>What are interface in java?</h1>
+        <p>An interface is a reference type in Java. It is similar to class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+            Along with abstract methods, an interface may also contain constants, default methods, static methods, and nested types. Method bodies exist only for default methods and static methods.
+            
+            Writing an interface is similar to writing a class. But a class describes the attributes and behaviors of an object. And an interface contains behaviors that a class implements.
+            
+            Unless the class that implements the interface is abstract, all the methods of the interface need to be defined in the class. </p>
+        </div>
+        <div class="content">
+           <h1>Some programs of interface: </h1>
+           <p>Here are some programs which will help you to understand the concept of interface in java : </p>
+        </div>
+        <div class="content">
+            <h2>1. Write a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.</h2>
+            <p>Code : </p>
+            <img src="interface1.png" alt="Picture not available" width="560" height="837">
+            <p>Output : </p>
+            <img src="interface1O.png" alt="Picture not available" width="500" height="200">
+            </div>
+            <div class="content">
+                <h2>2. Write a Java program to create a Animal interface with a method called bark() that takes no arguments and returns void. Create a Dog class that implements Animal and overrides speak() to print "Dog is barking".</h2>
+                <p>Code : </p>
+                <img src="interface2.png" alt="Picture not available" width="600" height="550">
+                <p>Output : </p>
+                <img src="interface2O.png" alt="Picture not available" width="500" height="200">
+                </div>
+                <div class="content">
+                    <h2>3. Write a Java program to create an interface Flyable with a method called fly_obj(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly_obj() method for each of the three classes.</h2>
+                    <p>Code : </p>
+                    <img src="interface3.png" alt="Picture not available" width="600" height="550">
+                    <p>Output : </p>
+                    <img src="interface3O.png" alt="Picture not available" width="500" height="200">
+                    </div>
+                    <div class="content">
+                        <h2>4. Write a Java programming to create a banking system with three classes - Bank, Account, SavingsAccount, and CurrentAccount. The bank should have a list of accounts and methods for adding them. Accounts should be an interface with methods to deposit, withdraw, calculate interest, and view balances. SavingsAccount and CurrentAccount should implement the Account interface and have their own unique methods.</h2>
+                        <p>Code : </p>
+                        <img src="interface4ii.png" alt="Picture not available" width="600" height="550"><br/>
+                        <img src="interface4i.png" alt="Picture not available" width="600" height="550"><br/>
+                        <img src="interface4iii.png" alt="Picture not available" width="600" height="550">
+                        <p>Output : </p>
+                        <img src="interface4O.png" alt="Picture not available" width="500" height="200">
+                        </div>
+                        <div class="content">
+                            <h2>5. Write a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized. Create a class Rectangle that implements the Resizable interface and implements the resize methods.</h2>
+                            <p>Code : </p>
+                            <img src="interface5i.png" alt="Picture not available" width="600" height="550"><br/>
+                        <img src="interface5ii.png" alt="Picture not available" width="600" height="550"><br/>
+                        <img src="interface5iii.png" alt="Picture not available" width="600" height="550">
+                            <p>Output : </p>
+                            <img src="interface5O.png" alt="Picture not available" width="500" height="200">
+                            </div>
+                            <div class="content">
+                                <h2>6. Write a Java program to create an interface Sortable with a method sort() that sorts an array of integers in ascending order. Create two classes BubbleSort and SelectionSort that implement the Sortable interface and provide their own implementations of the sort() method.</h2>
+                                <p>Code : </p>
+                                <img src="interface6.png" alt="Picture not available" width="600" height="550">
+                                <p>Output : </p>
+                                <img src="interface6O.png" alt="Picture not available" width="1000" height="200">
+                                </div>
+                                <div class="content">
+                                    <h2>7. Write a Java program to create an interface Playable with a method play() that takes no arguments and returns void. Create three classes Football, Volleyball, and Basketball that implement the Playable interface and override the play() method to play the respective sports.</h2>
+                                    <p>Code : </p>
+                                    <img src="interface7.png" alt="Picture not available" width="600" height="820">
+                                    <p>Output : </p>
+                                    <img src="interface7O.png" alt="Picture not available" width="850" height="300">
+                                    </div>
+                                    <div class="content">
+                                        <h2>8. Write a Java program to create an interface Searchable with a method search(String keyword) that searches for a given keyword in a text document. Create two classes Document and WebPage that implement the Searchable interface and provide their own implementations of the search() method.</h2>
+                                        <p>Code : </p>
+                                        <img src="interface8.png" alt="Picture not available" width="1030" height="900">
+                                        <p>Output : </p>
+                                        <img src="interface8O.png" alt="Picture not available" width="850" height="300">
+                                        </div>
+                                        <div class="content">
+                                            <h2>9. Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.</h2>
+                                            <p>Code : </p>
+                                            <img src="interface9.png" alt="Picture not available" width="600" height="820"><br/>
+                                            <img src="interface9i.png" alt="Picture not available" width="600" height="820">
+                                            <p>Output : </p>
+                                            <img src="interface9O.png" alt="Picture not available" width="1000" height="300">
+                                            </div>
+                <footer>
+                    <p>&copy; 2023 Java Programs Website by 🕉️Praveen Basera🕉️</p>
+                </footer>
+</body>
+</html>
